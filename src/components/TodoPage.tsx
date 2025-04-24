@@ -167,7 +167,7 @@ const TodoPage = () => {
           </Button>
         </Box>
         {showCalendar && (
-          <Box mt={2} sx={{ border: "1px solid #ccc", borderRadius: "8px" }}>
+          <Box mt={2}>
             <DatePicker
               value={selectedDate}
               onChange={(newValue) => {
